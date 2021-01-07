@@ -64,7 +64,7 @@
    height: 250px;
 }
 
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-device-width: 400px) {
     .top, .back, .wifi, .footer {
       background-attachment: scroll;
     }
