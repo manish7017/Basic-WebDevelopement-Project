@@ -1,0 +1,84 @@
+body{
+    background: url("Image/pic3.jpg");
+    background-size:cover;
+}
+
+.nav{
+    background: linear-gradient(to right ,transparent, rgba(160, 54, 54,0.5));
+    overflow: auto;
+    border-radius: 20px;
+    border: 0;
+}
+.nav a{
+    font-family: "Ubuntu", sans-serif;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 16px;
+    color: black;
+    text-shadow: 2px 2px 2px brown;
+}
+.nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.a1, .a2, .a3{
+        height: 3px;
+        width:30px;
+        background-color: brown;
+        margin-top: 4px;
+}
+
+.line1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Ubuntu",sans-serif;
+    color: black;
+    text-shadow: 2px 2px 2px brown;
+}
+
+.line2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 130px;
+    font-family: "Ubuntu",Serif;
+    color: black;
+    text-shadow: 2px 2px 2px brown;
+}
+.line3{
+    text-align: center;
+    margin: 10px 380px;
+    font-size: 25px;
+    font-family: "Ubuntu",Serif;
+    color: black;
+    text-shadow: 2px 2px 2px brown;
+}
+
+.line4{
+    margin: 150px 100px 50px 900px;
+    font-size: 20px;
+    font-family: "Ubuntu",Serif;
+    color: white;
+}
+
+.btn{
+    padding:10px 30px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    background: linear-gradient(transparent, rgba(180, 36, 36, 0.6));
+    font-size: 20px;
+    font-family: "Ubuntu",sans-serif;
+    text-shadow: 2px 2px 2px brown;
+}
+
+.btn:hover{
+    background-color:rgba(180, 36, 36, 0.5);
+}
+
+
+
+
+
