@@ -1,0 +1,11 @@
+.nav{
+	margin: 10px;
+	background: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+p{
+	margin: 1% 3% 1% 3%;
+}
