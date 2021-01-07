@@ -1,0 +1,68 @@
+.lay{
+   overflow: hidden;
+   width: 24%;
+   background-color: black;
+   border-radius: 20px;
+   border:2px solid black;
+   box-shadow: 10px 10px grey;
+   position:static;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+.title{
+    font-family: 'Leckerli One';
+    font-size: 35px; color: white;
+    text-align: center;
+    overflow:hidden;
+    display: flex;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+
+.nav a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 16px;
+    color: gray;
+}
+
+.nav a:hover{
+    background-color:black;
+    color: white;
+}
+
+.nav a.active{
+    background-color: black;
+    color: white;
+}
+
+/* Middle */
+.nav1{
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav1 a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 16px;
+    color: white;
+}
+
+.nav1 a:hover{
+    background-color:black;
+    color: white;
+}
+
+/* Image */
