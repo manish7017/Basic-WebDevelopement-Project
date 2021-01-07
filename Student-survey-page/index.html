@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>STUDENT SURVEY</h2>
+    <form>
+        <label for="fname">Student name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="mail">E-Mail</label><br>
+        <input type="email" name="email" id="mail"><br>
+        <label for="long">How long have you been a student here?</label><br>
+        <select name="month" id="long">
+            <option value="0">Please select</option>
+            <option value="1">Less a month</option>
+            <option value="2">1-6 months</option>
+            <option value="3">6 months to 1 year</option>
+            <option value="4">More than 1 year</option>
+            <option value="5">3 years</option>
+        </select><br>
+        <hr>
+        <p>Please rate the following aspects of your education.</p>
+        <table border="1">
+            <caption>Curriculum and classes for the term</caption>
+            <tr>
+                <th></th>
+                <th>Strongly <br> Disagree</th>
+                <th>Disagree</th>
+                <th>Neutral</th>
+                <th>Agree</th>
+                <th>Strongly <br> Agree</th>
+            </tr>
+            <tr>
+                <th>The class descriptions <br> acuurately described the <br> content.</th>
+                <td>
+                    <input type="radio" name="SD">
+                </td>
+                <td>
+                    <input type="radio" name="D">
+                </td>
+                <td>
+                    <input type="radio" name="N">
+                </td>
+                <td>
+                    <input type="radio" name="A">
+                </td>
+                <td>
+                    <input type="radio" name="SA">
+                </td>
+            </tr>
+            <tr>
+                <th>I was academically prepared for <br> the classes.</th>
+                <td>
+                    <input type="radio" name="SD">
+                </td>
+                <td>
+                    <input type="radio" name="D">
+                </td>
+                <td>
+                    <input type="radio" name="N">
+                </td>
+                <td>
+                    <input type="radio" name="A">
+                </td>
+                <td>
+                    <input type="radio" name="SA">
+                </td>
+            </tr>
+            <tr>
+                <th>The class sizes were <br> apporiate.</th>
+                <td>
+                    <input type="radio" name="SD">
+                </td>
+                <td>
+                    <input type="radio" name="D">
+                </td>
+                <td>
+                    <input type="radio" name="N">
+                </td>
+                <td>
+                    <input type="radio" name="A">
+                </td>
+                <td>
+                    <input type="radio" name="SA">
+                </td>
+            </tr>
+            <tr>
+                <th>The classes started and ended on <br> time.</th>
+                <td>
+                    <input type="radio" name="SD">
+                </td>
+                <td>
+                    <input type="radio" name="D">
+                </td>
+                <td>
+                    <input type="radio" name="N">
+                </td>
+                <td>
+                    <input type="radio" name="A">
+                </td>
+                <td>
+                    <input type="radio" name="SA">
+                </td>
+            </tr>
+            <tr>
+                <th>The classes increased my <br> knowledge of the subject <br> matter.</th>
+                <td>
+                    <input type="radio" name="SD">
+                </td>
+                <td>
+                    <input type="radio" name="D">
+                </td>
+                <td>
+                    <input type="radio" name="N">
+                </td>
+                <td>
+                    <input type="radio" name="A">
+                </td>
+                <td>
+                    <input type="radio" name="SA">
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <p>How likely are you to recommend our school to afriend or colleague?</p>
+        <input type="radio" name="VL" id="vl">
+        <label for="vl">Very Likely</label><br>
+        <input type="radio" id="sw">
+        <label for="sw">Somewhat likely</label><br>
+        <input type="radio" id="us">
+        <label for="us">Unsure</label><br>
+        <input type="radio" id="nvl">
+        <label for="nvl">Not very likely</label><br>
+        <input type="radio" id="nl">
+        <label for="nl">Not likely</label><br><br>
+        
+    </form> 
+    <input type="button" value="Submit" name="Submit" class="button">
+</body>
+</html>
