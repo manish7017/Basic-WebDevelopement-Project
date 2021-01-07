@@ -1,4 +1,45 @@
-div{
+/* section landing page css */
+.top{
     background: url(images/top.jpg);
-    overflow: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 660px;
 }
+
+/* food coloumn css */
+.back{
+    background: url(images/food.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 660px;
+}
+
+/* wifi column css */
+.wifi{
+    background: url(images/wifi.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 660px;
+}
+
+/* footer css */
+.footer{
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 250px;
+}
+
+@media only screen and (max-device-width: 1200px) {
+    .top, .back, .wifi, .footer {
+      background-attachment: scroll;
+    }
+  }
