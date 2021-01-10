@@ -1,0 +1,41 @@
+body,h1,h2,h3,h4,h5 {
+    font-family: "Raleway", sans-serif
+}
+
+
+.head{
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    margin:50px;
+}
+.mid{
+    float: left;
+} 
+
+.mid1{
+    box-shadow: 2px 3px 5px gray;
+    width: 70%;
+    margin: 20px;
+
+}
+.mid2{
+    box-shadow: 2px 3px 5px gray;
+    width: 70%;
+    margin: 20px;
+}
+
+
+.content{
+    margin-left: 5px;
+}
+
+.foot{
+ background-color: black;
+ float: left;
+}
+
+@media (max-width: 600px) {
+    .mid1, .mid2 {
+      width: 100%;
+    }
+  }
