@@ -58,6 +58,10 @@ body,h1,h2,h3,h4,h5 {
     margin-bottom: 30px;
     font-size: 17px;
 }
+.btn1:hover{
+    background-color: white;
+    color:black;
+}
 
 
 
