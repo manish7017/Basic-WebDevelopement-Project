@@ -18,13 +18,11 @@ body,h1,h2,h3,h4,h5 {
 
 .mid1{
     box-shadow: 2px 3px 5px gray;
-   
     margin: 20px;
 
 }
 .mid2{
     box-shadow: 2px 3px 5px gray;
-   
     margin: 20px;
 }
 
@@ -37,17 +35,38 @@ body,h1,h2,h3,h4,h5 {
     width: 30%;
 }
 
+
 .foot{
- background-color: black;
+ background-color: grey;
  float:left;
+ margin-top: 30px;
+ position:bottom;
  width:100%;
  height: 170px;
  padding: 20px;
+ overflow:none;
+}
+
+.btn{
+    color:whitesmoke;
+    padding: 10px 17px;
+    font-size: 17px;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 10px 17px;
+    margin-bottom: 30px;
+    font-size: 17px;
 }
 
 
-@media (max-width: 600px) {
-    .midl, .midr {
+
+
+@media screen and (max-width: 720px) {
+    .midl, .midr  {
       width: 100%;
     }
   }
+
+  
