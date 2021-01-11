@@ -5,6 +5,7 @@ body,h1,h2,h3,h4,h5 {
     font-family: "Raleway", sans-serif
 }
 
+
 .head{
     text-align: center;
     font-family: "Raleway",sans-serif;
@@ -42,9 +43,8 @@ body,h1,h2,h3,h4,h5 {
     clear: both;
     height: 140px;
     padding: 20px;
-    
+    display: block;
 }
-
 .btn{
     color:whitesmoke;
     padding: 10px 17px;
