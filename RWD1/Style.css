@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body,h1,h2,h3,h4,h5 {
     font-family: "Raleway", sans-serif
 }
@@ -8,25 +11,30 @@ body,h1,h2,h3,h4,h5 {
     font-family: "Raleway",sans-serif;
     margin:50px;
 }
-.mid{
+.midl{
     float: left;
+    width: 70%;
 } 
 
 .mid1{
     box-shadow: 2px 3px 5px gray;
-    width: 70%;
+   
     margin: 20px;
 
 }
 .mid2{
     box-shadow: 2px 3px 5px gray;
-    width: 70%;
+   
     margin: 20px;
 }
 
 
 .content{
-    margin-left: 5px;
+    margin:5px;
+}
+.midr{
+    float: right;
+    width: 30%;
 }
 
 .foot{
@@ -35,7 +43,7 @@ body,h1,h2,h3,h4,h5 {
 }
 
 @media (max-width: 600px) {
-    .mid1, .mid2 {
+    .midl, .midr {
       width: 100%;
     }
   }
